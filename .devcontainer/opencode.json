@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "local-gemma": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Local Gemma (host MLX)",
+      "options": {
+        "baseURL": "http://host.docker.internal:8000/v1",
+        "apiKey": "dummy"
+      },
+      "models": {
+        "/Users/dio/models/gemma-4-12b-it-mlx-8bit": {}
+      }
+    }
+  }
+}
