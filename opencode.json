@@ -9,7 +9,7 @@
         "apiKey": "dummy"
       },
       "models": {
-        "gemma-4-12b-it-mlx-8bit": {}
+        "gemma-4-12b": {}
       }
     }
   }

@@ -9,8 +9,7 @@
   "containerEnv": {
     "OPENCODE_EXPERIMENT": "1"
   },
-  "postCreateCommand": "bash .devcontainer/post-create.sh",
-  "remoteUser": "vscode",
+  "remoteUser": "node",
   "customizations": {
     "vscode": {
       "extensions": []
